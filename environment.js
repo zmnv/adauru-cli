@@ -1,4 +1,4 @@
 module.exports = {
     currentPath: process.cwd(),
-    defaultFile: 'index.html'
+    defaultFile: 'index.html',
 };

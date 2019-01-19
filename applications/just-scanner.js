@@ -1,9 +1,9 @@
 const AdScanner = require('../tools/ad-scanner');
 const ENV = require('../environment');
 
-const JustScanner = () => {
+const JustScanner = (pathName = ENV.currentPath) => {
 
-    AdScanner(ENV.currentPath)
+    AdScanner(pathName)
         .then(res => {
             console.log(res.TelemetryMessage);
         });
