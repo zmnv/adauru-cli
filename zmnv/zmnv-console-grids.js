@@ -3,7 +3,7 @@ const CS = require('./zmnv-colorizer');
 const defaultStyle = {
     padding: 40,
     placeholder: '.',
-    color: 90,
+    color: 90
 };
 
 const LayoutLine = (leftString = '', rightString = '', padding = defaultStyle.padding, placeholder = defaultStyle.placeholder, placeholderColor = defaultStyle.color) => {
