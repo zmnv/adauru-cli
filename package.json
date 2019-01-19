@@ -1,0 +1,20 @@
+{
+  "name": "adauru-cli",
+  "version": "2.1.0",
+  "description": "",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "html-to-json": "^0.6.0",
+    "i18n": "^0.8.3",
+    "imagemin": "^5.3.1",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.1",
+    "inquirer": "^5.2.0",
+    "replace-in-file": "^2.5.2"
+  },
+  "devDependencies": {},
+  "author": "Valeriy Zimnev",
+  "license": "MIT"
+}
