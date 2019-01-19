@@ -1,3 +1,6 @@
+
+<img src="https://777999.au.ru/zmnv/adauru-cli/howitworks_scheme.png" width="584">
+
 ```
 Usage: adauru-cli [options] [command]
 
