@@ -32,7 +32,7 @@ program
 
 program
     .command('duplicate')
-    .description('Just duplicate index.html to build/FolderName.html.')
+    .description('Just duplicate index.html to build/<FolderName>.html.')
     .alias('d')
     .action(() => {
         console.log(AdauruLogo);

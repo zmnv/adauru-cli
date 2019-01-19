@@ -41,7 +41,6 @@ const ScanDuplicateReplace = (_path = test) => {
                                 + cs('> Just check out the ', 97) 
                                 + cs('/build/' + AdHelpers.getFileEnd(res), 97, 1)
                                 + '\n';
-                            console.log(AdLogo);
                             console.log(doneMessage);
                         }
                         else console.log(cs('Error! File is not duplicated...', 91, 1)); 
