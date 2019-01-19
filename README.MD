@@ -4,12 +4,11 @@
   <img src="https://777999.au.ru/zmnv/adauru-cli/howitworks_scheme.png" width="584">
 </p>
 
-```js
+```
 npm install -g adauru-cli
 ```
 
-```js
-// open folder with index.html (by default) then run:
+```
 adauru-cli run
 ```
 
@@ -21,10 +20,10 @@ It helps when you need to:
 # How it works?
 
 You need to open folder with stucture:
-```js
+```
 FolderName
-- index.html // (by default)
-- image.png // jpg, jpeg, png, gif, svg
+- index.html (by default)
+- image.png (can use: jpg, jpeg, png, gif, svg)
 ```
 
 1. Adauru scans current folder to find:  
@@ -32,6 +31,15 @@ a) images
 b) html file (*index.html by default*).
 2. All found images are converted to base64 string.
 3. Replace all `src="image.png"` to `src="data:image/png;base64,h4sh1mg…"` in html file.
+
+After it creates build with single html file:
+```
+FolderName
+- build
+-- FolderName.html <- that file
+- index.html (by default)
+- image.png (can use: jpg, jpeg, png, gif, svg)
+```
 
 # Help
 
@@ -51,4 +59,4 @@ Commands:
 
 Adauru has update check when it scans folder.
 
-## Project is alive. Updates coming soon...
+### Project is alive. Updates coming soon...
