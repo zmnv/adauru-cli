@@ -17,7 +17,7 @@ It helps when you need to:
 * merge Google Web Designer build files in one.
 * other...
 
-# How it works?
+## How it works?
 
 
 You need to open folder with structure:
@@ -47,13 +47,11 @@ FolderName
 - image.png (can use: jpg, jpeg, png, gif, svg)
 ```
 
-### Terminal window view
-
 <p align="center">
   <img src="https://777999.au.ru/zmnv/adauru-cli/howitworks_console.png" width="368">
 </p>
 
-# Help
+## Help
 
 ```
 Usage: adauru-cli [options] [command]
