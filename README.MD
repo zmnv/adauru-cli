@@ -19,11 +19,17 @@ It helps when you need to:
 
 # How it works?
 
+
 You need to open folder with stucture:
 ```
 FolderName
 - index.html (by default)
 - image.png (can use: jpg, jpeg, png, gif, svg)
+```
+
+Run command inside *FolderName* folder:
+```
+adauru-cli run
 ```
 
 1. Adauru scans current folder to find:  
@@ -40,6 +46,12 @@ FolderName
 - index.html (by default)
 - image.png (can use: jpg, jpeg, png, gif, svg)
 ```
+
+### Terminal window view
+
+<p align="center">
+  <img src="https://777999.au.ru/zmnv/adauru-cli/howitworks_console.png" width="368">
+</p>
 
 # Help
 
