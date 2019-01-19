@@ -8,7 +8,7 @@ const Helpers = require('./ad-helpers');
 
 const Telemetry = {
     common: {
-        defaultFileFound: false,
+        defaultFileFound: false
     },
     files: {
         allFiles: [],
@@ -21,7 +21,7 @@ const Telemetry = {
     sizes: {
         allFolder: 0,
         allImages: 0,
-        htmlFile: 0,
+        htmlFile: 0
     }
 };
 

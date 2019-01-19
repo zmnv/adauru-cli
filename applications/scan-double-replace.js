@@ -3,8 +3,7 @@ const {
     AdFileWorker,
     AdHelpers,
     AdReplacer,
-    AdScanner,
-    AdLogo,
+    AdScanner
 } = require('../tools');
 
 const cs = require('../zmnv/zmnv-colorizer');

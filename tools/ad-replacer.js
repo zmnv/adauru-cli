@@ -9,7 +9,7 @@ const Base64 = require('./ad-base64');
 
 const replaceOptions = {
     allowEmptyPaths: false,
-    encoding: 'utf8',
+    encoding: 'utf8'
 };
 
 const changeReplaceOptions = (_file, _from, _to) => {
