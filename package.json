@@ -1,6 +1,6 @@
 {
   "name": "adauru-cli",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Inject png, jpg assets to html file as base64",
   "preferGlobal": true,
   "bin": "./commands.js",
