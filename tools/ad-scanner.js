@@ -30,7 +30,7 @@ const Telemetry = {
  */
 const AdScanner = (_directory) => {
 
-    const isImagesRegExp = /(jpg|jpeg|png|gif|svg|bmp)$/;
+    const isImagesRegExp = /(jpg|jpeg|png|gif|svg)$/;
 
     return new Promise(resolve => fs.readdir(_directory, (err, files) => {
         files.forEach(file => {
