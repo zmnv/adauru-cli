@@ -29,6 +29,6 @@
         "no-unused-vars": "warn",
         "no-console": "off",
         "no-useless-escape": "warn",
-        "comma-dangle": ["warn", "always"]
+        "comma-dangle": ["warn"]
     }
 }
