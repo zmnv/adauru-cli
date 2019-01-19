@@ -3,7 +3,7 @@ const fs = require('fs');
 function Encoder(fileFolder, fileName) {
     const fileToEncode = fs.readFileSync(fileFolder + '/' + fileName);
 
-    return new Buffer(fileToEncode).toString('base64');
+    return new Buffer.from(fileToEncode).toString('base64');
 }
 
 function EncoderList (_path, _imagesList = []) {
