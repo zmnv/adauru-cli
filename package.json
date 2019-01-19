@@ -4,6 +4,10 @@
   "description": "Inject png, jpg assets to html file as base64",
   "preferGlobal": true,
   "bin": "./commands.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "dependencies": {
     "commander": "^2.19.0",
     "html-to-json": "^0.6.0",
