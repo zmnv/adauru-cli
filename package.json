@@ -1,7 +1,7 @@
 {
   "name": "adauru-cli",
-  "version": "2.1.0",
-  "description": "",
+  "version": "2.1.2",
+  "description": "Inject png, jpg assets to html file as base64",
   "preferGlobal": true,
   "bin": "./commands.js",
   "dependencies": {
@@ -11,12 +11,22 @@
     "imagemin": "^5.3.1",
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-pngquant": "^7.0.0",
-    "inquirer": "^5.2.0",
     "replace-in-file": "^2.6.4"
   },
-  "devDependencies": {
-    "lodash": ">=4.17.5"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmnv/adauru-cli.git"
   },
+  "keywords": [
+    "base64",
+    "jpeg",
+    "png",
+    "html",
+    "converter",
+    "assets",
+    "inject",
+    "assets injection"
+  ],
   "author": "Valeriy Zimnev",
   "license": "MIT"
 }
