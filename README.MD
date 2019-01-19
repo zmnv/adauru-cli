@@ -20,7 +20,7 @@ It helps when you need to:
 # How it works?
 
 
-You need to open folder with stucture:
+You need to open folder with structure:
 ```
 FolderName
 - index.html (by default)
