@@ -67,6 +67,13 @@ Commands:
   run|r          Scan, Encode & Replace images in index.html
 ```
 
-Adauru has update check when it scans folder.
+## Updates 
+Roadmap:
+* ~~Auto update check~~
+* More output analytics
+* Define input html file by command ```adauru-cli run name.html```
+* Image compression like TinyPNG.com
+* Support scan inside .js files (ex. Adobe Animate CC builds)
 
-### Project is alive. Updates coming soon...
+Coming soon!
+
